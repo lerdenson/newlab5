@@ -82,6 +82,7 @@ public class Console {
                 status=executeCommand(userCommand);
             }while(status==0 && scanner2.hasNextLine());
             creator.setScanner(oldScanner);
+            return 0;
 
 
         }catch(FileNotFoundException e){
